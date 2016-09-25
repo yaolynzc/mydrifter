@@ -3,6 +3,7 @@ var redis = require('./models/redis.js');
 var bodyParser = require('body-parser');
 
 var app = express();
+// app.use(express.bodyParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
