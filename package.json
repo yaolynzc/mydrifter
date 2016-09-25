@@ -4,7 +4,9 @@
   "dependencies": {
     "express":"*",
     "redis":"*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "mongoose":"*",
+    "bluebird":"*"
   },
   "devDependencies": {
     "request":"*"
